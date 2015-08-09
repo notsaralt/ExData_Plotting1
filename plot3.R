@@ -1,6 +1,5 @@
 electric_data <- read.csv('household_power_consumption.txt', sep = ';', na.strings = c("?"), stringsAsFactors = FALSE)
 electric_data$Formatted_Date <- as.Date(electric_data$Date, "%d/%m/%Y")
-# electric_data$Time <- strptime(electric_data$Time, "%H:%M:%S")
 
 
 
